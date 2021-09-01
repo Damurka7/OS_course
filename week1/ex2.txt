@@ -1,0 +1,16 @@
+  293  cd week1
+  294  ls user/bin
+  295  ls /user/bin
+  296  cd ~
+  297  ls user/bin
+  298  /user/bin
+  299  ls /usr/bin
+  300  grep gcc
+  301  ls /usr/bin
+  302  grep gcc /usr/bin
+  303  sort -r /usr/bin/gcc > ~/week1/ex1.txt
+  304  open ~/week1/ex1.txt
+  305  cd ~/week1/ex2.txt
+  306  cd ~/week1
+  307  nano ex2.txt
+  308  nano ex2.txt
