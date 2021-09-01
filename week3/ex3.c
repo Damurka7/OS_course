@@ -13,17 +13,24 @@ void append(int value){
     while (last->next!=NULL){
         last = last->next;
     }
+
     node->value = value;
     node->next = NULL;
     last->next = node;
 }
 
-void insert_node(int value, struct NodeOfLinkedList* prev){
+void insert_node(int value, int after){
     struct NodeOfLinkedList *node = malloc(sizeof(struct NodeOfLinkedList));
+    struct NodeOfLinkedList *temp = &head;
+    while (temp->value!=after){
+        temp = temp->next;
+    }
     node->value = value;
-    node->next = prev->next;
-    prev->next = node;
+    node->next = temp->next;
+    temp->next = node;
 }
+
+
 
 void print_list(struct NodeOfLinkedList *node){
     while (node->next!=NULL){
@@ -57,10 +64,10 @@ int main () {
     append(4);
     append(3);
     append(10);
-    insert_node(77, &head);
+    insert_node(77, 4);
     struct NodeOfLinkedList n;
     n.value = 4;
-    delete_node(&head);
+    //delete_node(&head);
     print_list(&head);
 
     return 0;
