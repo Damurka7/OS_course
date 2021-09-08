@@ -4,11 +4,11 @@
 
 
 int main() {
-    int n;
+    int n=5;
     if(fork() == 0){
-        printf("Hello from child [PID - %d]\n", getpid());
+        printf("Hello from child [%d - %d]\n", getpid(), n);
     }else{
-        printf("Hello from parent [PID - %d]\n", getpid());
+        printf("Hello from parent [%d - %d]\n", getpid(), n);
     }
 
     return 0;
