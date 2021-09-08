@@ -1,0 +1,24 @@
+Hello from parent [16414 - 5]
+Hello from child [16415 - 5]
+Hello from parent [16416 - 5]
+Hello from child [16417 - 5]
+Hello from parent [16418 - 5]
+Hello from child [16419 - 5]
+Hello from parent [16420 - 5]
+Hello from child [16421 - 5]
+Hello from parent [16422 - 5]
+Hello from child [16423 - 5]
+Hello from parent [16424 - 5]
+Hello from child [16425 - 5]
+Hello from parent [16426 - 5]
+Hello from child [16427 - 5]
+Hello from parent [16428 - 5]
+Hello from child [16429 - 5]
+Hello from parent [16430 - 5]
+Hello from child [16431 - 5]
+Hello from parent [16432 - 5]
+Hello from child [16433 - 5]
+
+the output above shows that the program creates two processes: parent is created first, child - second.
+when program executes it becomes a process with an identifier which is greater than the identifier of the previous process by 1
+  
