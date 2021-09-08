@@ -11,5 +11,5 @@ int main() {
         printf("Hello from parent [%d - %d]\n", getpid(), n);
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }
