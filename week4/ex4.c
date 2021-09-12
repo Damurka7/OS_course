@@ -6,16 +6,26 @@
 #include<readline/history.h>
 
 int main() {
+    printf("command line - max size of your command is 50 characters\n");
     while (1){
         char in[50];
         printf("->");
-        fgets(in, 50, stdin);
-        char* token = strtok(in, " ");
+        scanf("%[^\n]%*c", in);
 
-        if(fork()==0){
-            execvp(token[0], token);
+        char* new_token[50];
+        int i = 0;
+        new_token[i] = strtok(in, " ");
+        while(new_token[i] != NULL){
+            ++i;
+            new_token[i] = strtok(NULL, " ");
+        }
+
+        pid_t pid = fork();
+
+        if(pid==0){
+            execvp(new_token[0], new_token);
         }else{
-            system(in);
+            wait(NULL);
         }
 
     }
