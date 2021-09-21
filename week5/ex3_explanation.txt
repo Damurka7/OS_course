@@ -1,0 +1,1 @@
+the executing of a program leads to no output, but it should print some text to console. Nevertheless I debugged my code, and on debug execution it prints everything in a console. I conclude that I faced the fatal race condition, when the both threads fell asleep.
