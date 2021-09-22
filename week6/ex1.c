@@ -29,7 +29,7 @@ void bubbleSort(int arr[][3], int n){
         // Last i elements are already in place
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j][0] > arr[j + 1][0]) {
-                swapArray(arr[j], arr[j + 1], n);
+                swapArray(arr[j], arr[j + 1], 3);
             }
         }
     }
