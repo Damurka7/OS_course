@@ -18,7 +18,7 @@ void bubbleSort(int arr[][2], int n){
         // Last i elements are already in place
         for (j = 0; j < n-i-1; j++)
             if (arr[j][0] > arr[j+1][0])
-                swap(&arr[j][0], &arr[j+1][0]);
+                swap((int *) &arr[j], (int *) &arr[j + 1]);
 }
 
 void printArray(int arr[][2], int size){
