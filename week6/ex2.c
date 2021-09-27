@@ -42,12 +42,13 @@ void printArray(int **arr, int size) {
         }
         wt = arr[0][0] + bt_j - arr[i][0];
 
-        wt = complT - arr[i][0];
+        //wt = complT - arr[i][0];
         if (wt < 0) {
             wt = 0;
         }
         complT = ct;
         int tat = arr[i][1] + wt;
+        ct = tat + arr[i][0];
         printf("\t\t %d\t\t\t\t%d\t\t\t\t%d\t\t\t\t%d\t\t\t\t%d\t\t\t\t%d\n", arr[i][2], arr[i][0], arr[i][1], ct, wt,
                tat);
         avWT += wt;
