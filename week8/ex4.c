@@ -3,6 +3,8 @@
 #include <unistd.h>
 #include <sys/resource.h>
 
+// In console I see how much memory it takes, every second it increases by about 10^7 bytes (as required)
+
 int main() {
     char *data;
     int bytes = (1024*1024*10);
