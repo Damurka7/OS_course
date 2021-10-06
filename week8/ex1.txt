@@ -1,0 +1,24 @@
+(base) damirnurtdinov@MacBook-Air-Damir ~ % vm_stat 
+Mach Virtual Memory Statistics: (page size of 4096 bytes)
+Pages free:                                4929.
+Pages active:                            622096.
+Pages inactive:                          593433.
+Pages speculative:                        28418.
+Pages throttled:                              0.
+Pages wired down:                        561155.
+Pages purgeable:                          39452.
+"Translation faults":                1529880079.
+Pages copy-on-write:                   29754337.
+Pages zero filled:                    950125772.
+Pages reactivated:                     61441888.
+Pages purged:                          26925972.
+File-backed pages:                       247208.
+Anonymous pages:                         996739.
+Pages stored in compressor:             1406506.
+Pages occupied by compressor:            286553.
+Decompressions:                        79791542.
+Compressions:                         109023743.
+Pageins:                               44041481.
+Pageouts:                                321102.
+Swapins:                               28597323.
+Swapouts:                              29839304.
