@@ -1,0 +1,1 @@
+from the terminal after top command I can see my program runs and eats more memory every second (+10mb every second, as it shoild do)
