@@ -1,0 +1,2 @@
+Physical adress is an adress which exists in reality, it is a part of hardware. It is limited
+Virtual adress is an adress which does not exist in reality, but it helps run programs which require more memory than we have physicaly. It helps "a process to use a location in primary storage ". 
