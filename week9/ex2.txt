@@ -1,0 +1,4 @@
+I changed page number for almost each page, so there are most pages were unique. It led to decrease of hit/miss ratio. (it is very logical, because at almost every memeory access we do not have such page in page frame)
+And I did vice versa: made amost all page numbers equivalent, so every memory access program has found required page in page frame -> hit/miss ratio increased significantly
+1) I made almost all pages with unique page number
+2) I made almost all pages with different page number 
