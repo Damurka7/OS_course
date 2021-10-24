@@ -1,0 +1,6 @@
+-rw-rw-rw-  1 damirnurtdinov  staff  5 Oct 24 10:17 _ex3.txt
+-rwxrw-rwx  1 damirnurtdinov  staff  5 Oct 24 10:17 _ex3.txt
+-rwxrwxrwx  1 damirnurtdinov  staff  5 Oct 24 10:17 _ex3.txt
+660 means 6 for user (read and write permissions(r+w)), 6 for group (r+w), 0 for others (no permission
+775 means 7 for user (r+w+e (execute permission)), 7 for group (r+w+e), 5 for others (r+e)
+777 means r+w+e for everyone
