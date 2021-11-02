@@ -6,7 +6,6 @@ int main(){
     while ((files = readdir(dir)) != NULL)
         if(files->d_name[0] != '.')
             printf("%s ", files->d_name);
-
     printf("\n");
     closedir(dir);
     return 0;
